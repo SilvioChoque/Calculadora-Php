@@ -11,8 +11,16 @@
     <?php
         $valor1 = $_GET["a"];
         $valor2 = $_GET["b"];
-        echo "Olá, Mundo! ";
+        $soma = $valor1 + $valor2;
+        echo "<br/>Primeiro numero da operação: $valor1";
+        echo "<br/>Segundo numero da operação: $valor2";
+        echo "<br/>A soma dos dois numeros é: $soma";
+        
+
+
 
     ?>
+
+    
 </body>
 </html>
